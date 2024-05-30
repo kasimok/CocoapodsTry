@@ -1,0 +1,19 @@
+[config]
+name="Arithematic"
+binary="arithematic.a"
+
+initialization="register_arithematic_types"
+deinitialization="unregister_arithematic_types"
+
+
+[dependencies]
+linked=[]
+embedded=[]
+system=["CoreLocation.framework"]
+
+capabilities=[]
+#use_swift_runtime=true
+files=[]
+
+[plist]
+NSLocationWhenInUseUsageDescription="Need permission for location"

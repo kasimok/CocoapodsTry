@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB2FC5D92C04892A0048ABC6 /* MySwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FC5D82C04892A0048ABC6 /* MySwift.swift */; };
+		AB39FAD52BFE038200F564BD /* arithematic.mm in Sources */ = {isa = PBXBuildFile; fileRef = AB39FAD42BFE038200F564BD /* arithematic.mm */; };
+		AB39FAD62BFE038200F564BD /* arithematic.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AB39FAD32BFE038200F564BD /* arithematic.h */; };
+		AB39FADE2BFE03AD00F564BD /* arithematic_module.mm in Sources */ = {isa = PBXBuildFile; fileRef = AB39FADD2BFE03AD00F564BD /* arithematic_module.mm */; };
+		B38AFE24E8874DA869D623E2 /* Pods_arithematic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42225BB328F3526C75AA1E38 /* Pods_arithematic.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB39FACE2BFE038200F564BD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				AB39FAD62BFE038200F564BD /* arithematic.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		42225BB328F3526C75AA1E38 /* Pods_arithematic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_arithematic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A7F71A8DD1FDB1A3F70639 /* Pods-arithematic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-arithematic.debug.xcconfig"; path = "Target Support Files/Pods-arithematic/Pods-arithematic.debug.xcconfig"; sourceTree = "<group>"; };
+		AB2FC5D72C0489290048ABC6 /* arithematic-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "arithematic-Bridging-Header.h"; sourceTree = "<group>"; };
+		AB2FC5D82C04892A0048ABC6 /* MySwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwift.swift; sourceTree = "<group>"; };
+		AB39FAD02BFE038200F564BD /* libarithematic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libarithematic.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB39FAD32BFE038200F564BD /* arithematic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = arithematic.h; sourceTree = "<group>"; };
+		AB39FAD42BFE038200F564BD /* arithematic.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = arithematic.mm; sourceTree = "<group>"; };
+		AB39FADC2BFE039B00F564BD /* arithematic_module.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = arithematic_module.h; sourceTree = "<group>"; };
+		AB39FADD2BFE03AD00F564BD /* arithematic_module.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = arithematic_module.mm; sourceTree = "<group>"; };
+		B2F48A64329382B617DD7A40 /* Pods-arithematic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-arithematic.release.xcconfig"; path = "Target Support Files/Pods-arithematic/Pods-arithematic.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB39FACD2BFE038200F564BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38AFE24E8874DA869D623E2 /* Pods_arithematic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B3127D1E3072DA6B883ABC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42225BB328F3526C75AA1E38 /* Pods_arithematic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53B79076642769EC38F10FA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52A7F71A8DD1FDB1A3F70639 /* Pods-arithematic.debug.xcconfig */,
+				B2F48A64329382B617DD7A40 /* Pods-arithematic.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AB39FAC72BFE038200F564BD = {
+			isa = PBXGroup;
+			children = (
+				AB39FAD22BFE038200F564BD /* arithematic */,
+				AB39FAD12BFE038200F564BD /* Products */,
+				53B79076642769EC38F10FA9 /* Pods */,
+				1B3127D1E3072DA6B883ABC5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB39FAD12BFE038200F564BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB39FAD02BFE038200F564BD /* libarithematic.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB39FAD22BFE038200F564BD /* arithematic */ = {
+			isa = PBXGroup;
+			children = (
+				AB39FAD32BFE038200F564BD /* arithematic.h */,
+				AB39FAD42BFE038200F564BD /* arithematic.mm */,
+				AB39FADC2BFE039B00F564BD /* arithematic_module.h */,
+				AB39FADD2BFE03AD00F564BD /* arithematic_module.mm */,
+				AB2FC5D82C04892A0048ABC6 /* MySwift.swift */,
+				AB2FC5D72C0489290048ABC6 /* arithematic-Bridging-Header.h */,
+			);
+			path = arithematic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB39FACF2BFE038200F564BD /* arithematic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB39FAD92BFE038200F564BD /* Build configuration list for PBXNativeTarget "arithematic" */;
+			buildPhases = (
+				182EA13ED5A42CBF06CCEE50 /* [CP] Check Pods Manifest.lock */,
+				AB39FACC2BFE038200F564BD /* Sources */,
+				AB39FACD2BFE038200F564BD /* Frameworks */,
+				AB39FACE2BFE038200F564BD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = arithematic;
+			productName = arithematic;
+			productReference = AB39FAD02BFE038200F564BD /* libarithematic.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB39FAC82BFE038200F564BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					AB39FACF2BFE038200F564BD = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+					};
+				};
+			};
+			buildConfigurationList = AB39FACB2BFE038200F564BD /* Build configuration list for PBXProject "arithematic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB39FAC72BFE038200F564BD;
+			productRefGroup = AB39FAD12BFE038200F564BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB39FACF2BFE038200F564BD /* arithematic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		182EA13ED5A42CBF06CCEE50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-arithematic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB39FACC2BFE038200F564BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB39FAD52BFE038200F564BD /* arithematic.mm in Sources */,
+				AB2FC5D92C04892A0048ABC6 /* MySwift.swift in Sources */,
+				AB39FADE2BFE03AD00F564BD /* arithematic_module.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB39FAD72BFE038200F564BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB39FAD82BFE038200F564BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB39FADA2BFE038200F564BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52A7F71A8DD1FDB1A3F70639 /* Pods-arithematic.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATYGK4ZSSC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/arithematic",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/arithematic",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "arithematic/arithematic-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB39FADB2BFE038200F564BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2F48A64329382B617DD7A40 /* Pods-arithematic.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATYGK4ZSSC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/arithematic",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/arithematic",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "arithematic/arithematic-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB39FACB2BFE038200F564BD /* Build configuration list for PBXProject "arithematic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB39FAD72BFE038200F564BD /* Debug */,
+				AB39FAD82BFE038200F564BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB39FAD92BFE038200F564BD /* Build configuration list for PBXNativeTarget "arithematic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB39FADA2BFE038200F564BD /* Debug */,
+				AB39FADB2BFE038200F564BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB39FAC82BFE038200F564BD /* Project object */;
+}
