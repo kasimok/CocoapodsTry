@@ -173,19 +173,19 @@ else:
         'godot/platform/ios',
     ])
        
-
-
 sources = Glob('arithematic/*.cpp')
+if env['simulator']:
+    env.Append(LIBPATH=['Firebase/FirebaseAuth.xcframework/ios-arm64_i386_x86_64-simulator'])
+    sources.append(Glob('Firebase/FirebaseAuth.xcframework/ios-arm64_i386_x86_64-simulator/Headers/*.h'))
+else:
+    env.Append(LIBPATH=['Firebase/FirebaseAuth.xcframework/ios-arm64'])
+    sources.append(Glob('Firebase/FirebaseAuth.xcframework/ios-arm64/Headers/*.h'))
+
 sources.append(Glob('Pods/FirebaseCore/FirebaseCore/Sources/*.m'))
 sources.append(Glob('Pods/FirebaseAuth/FirebaseAuth/Sources/*.m'))
 
 sources.append(Glob('arithematic/*.mm'))
 sources.append(Glob('arithematic/*.m'))
-
-# lib<plugin>.<arch>-<simulator|ios>.<release|debug|release_debug>.a
-# library_platform = env["arch"] + "-" + ("simulator" if env["simulator"] else ("iphone" if env['version'] == '3.x' else "ios"))
-# library_name = env['plugin'] + "." + library_platform + "." + env["target"] + ".a"
-# library = env.StaticLibrary(target=env['target_path'] + library_name, source=sources)
 
 library_platform = env["arch"] + "-" + ("simulator" if env["simulator"] else "iphone")
 library_name = env['plugin'] + "." + library_platform + "." + env["target"] + ".a"
