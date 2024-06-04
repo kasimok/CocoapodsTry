@@ -16,8 +16,12 @@
 #include "core/object.h"
 #endif
 
-#import <FirebaseCore/FirebaseCore.h>
-#import <FirebaseAuth/FirebaseAuth.h>
+// #import <FirebaseCore/FirebaseCore.h>
+// #import <FirebaseAuth/FirebaseAuth.h>
+
+#include "FirebaseCore.h"
+#include "FirebaseAuth.h"
+
 
 class Arithematic : public Object {
 

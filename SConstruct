@@ -175,15 +175,17 @@ else:
        
 sources = Glob('arithematic/*.cpp')
 if env['simulator']:
-    env.Append(LIBPATH=['Firebase/FirebaseAuth.xcframework/ios-arm64_i386_x86_64-simulator'])
-    sources.append(Glob('Firebase/FirebaseAuth.xcframework/ios-arm64_i386_x86_64-simulator/Headers/*.h'))
+    env.Append(LIBPATH=['Firebase/FirebaseAuth.xcframework/ios-arm64_x86_64-simulator'])
+    env.Append(CPPPATH=['Firebase/FirebaseAuth.xcframework/ios-arm64_x86_64-simulator/FirebaseAuth.framework/Headers'])
+    env.Append(LIBPATH=['Firebase/FirebaseCore.xcframework/ios-arm64_x86_64-simulator/FirebaseCore.framework'])
+    env.Append(CPPPATH=['Firebase/FirebaseCore.xcframework/ios-arm64_x86_64-simulator/FirebaseCore.framework/Headers'])
 else:
     env.Append(LIBPATH=['Firebase/FirebaseAuth.xcframework/ios-arm64'])
-    sources.append(Glob('Firebase/FirebaseAuth.xcframework/ios-arm64/Headers/*.h'))
-
-sources.append(Glob('Pods/FirebaseCore/FirebaseCore/Sources/*.m'))
-sources.append(Glob('Pods/FirebaseAuth/FirebaseAuth/Sources/*.m'))
-
+    # sources.append(Glob('Firebase/FirebaseAuth.xcframework/ios-arm64/Headers/*.h'))
+    env.Append(CPPPATH=['Firebase/FirebaseAuth.xcframework/ios-arm64/FirebaseAuth.framework/Headers'])
+    env.Append(LIBPATH=['Firebase/FirebaseCore.xcframework/ios-arm64/FirebaseCore.framework'])
+    env.Append(CPPPATH=['Firebase/FirebaseCore.xcframework/ios-arm64/FirebaseCore.framework/Headers'])
+ 
 sources.append(Glob('arithematic/*.mm'))
 sources.append(Glob('arithematic/*.m'))
 
