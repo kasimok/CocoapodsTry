@@ -1,0 +1,8 @@
+dependencies: servers/audio/effects/eq_filter.cpp \
+  servers/audio/effects/eq_filter.h core/templates/vector.h \
+  core/error/error_macros.h core/typedefs.h \
+  platform/ios/platform_config.h core/error/error_list.h \
+  core/os/memory.h core/templates/safe_refcount.h \
+  core/templates/cowdata.h core/templates/search_array.h \
+  core/templates/sort_array.h core/math/math_funcs.h \
+  core/math/math_defs.h core/math/random_pcg.h thirdparty/misc/pcg.h

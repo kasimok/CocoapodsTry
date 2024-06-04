@@ -181,7 +181,6 @@ if env['simulator']:
     env.Append(CPPPATH=['Firebase/FirebaseCore.xcframework/ios-arm64_x86_64-simulator/FirebaseCore.framework/Headers'])
 else:
     env.Append(LIBPATH=['Firebase/FirebaseAuth.xcframework/ios-arm64'])
-    # sources.append(Glob('Firebase/FirebaseAuth.xcframework/ios-arm64/Headers/*.h'))
     env.Append(CPPPATH=['Firebase/FirebaseAuth.xcframework/ios-arm64/FirebaseAuth.framework/Headers'])
     env.Append(LIBPATH=['Firebase/FirebaseCore.xcframework/ios-arm64/FirebaseCore.framework'])
     env.Append(CPPPATH=['Firebase/FirebaseCore.xcframework/ios-arm64/FirebaseCore.framework/Headers'])

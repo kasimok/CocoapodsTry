@@ -1,0 +1,27 @@
+dependencies: \
+  thirdparty/glslang/glslang/MachineIndependent/glslang_tab.cpp \
+  thirdparty/glslang/glslang/MachineIndependent/SymbolTable.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Include/Common.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Include/PoolAlloc.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Include/intermediate.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Include/../Include/Common.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Include/../Include/Types.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Include/../Include/BaseTypes.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Include/../Public/ShaderLang.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Include/../Public/../Include/ResourceLimits.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Include/../Public/../MachineIndependent/Versions.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Include/arrays.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Include/SpirvIntrinsics.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Include/../Include/ConstantUnion.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Include/InfoSink.h \
+  thirdparty/glslang/glslang/MachineIndependent/ParseHelper.h \
+  thirdparty/glslang/glslang/MachineIndependent/parseVersions.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Public/ShaderLang.h \
+  thirdparty/glslang/glslang/MachineIndependent/Scan.h \
+  thirdparty/glslang/glslang/MachineIndependent/Versions.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Include/ShHandle.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Include/../MachineIndependent/Versions.h \
+  thirdparty/glslang/glslang/MachineIndependent/localintermediate.h \
+  thirdparty/glslang/glslang/MachineIndependent/attribute.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Include/ConstantUnion.h \
+  thirdparty/glslang/glslang/MachineIndependent/glslang_tab.cpp.h

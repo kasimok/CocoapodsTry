@@ -1,0 +1,9 @@
+dependencies: thirdparty/libwebp/src/demux/demux.c \
+  thirdparty/libwebp/src/utils/utils.h thirdparty/libwebp/src/dsp/dsp.h \
+  thirdparty/libwebp/src/dsp/cpu.h thirdparty/libwebp/src/webp/types.h \
+  thirdparty/libwebp/src/webp/decode.h \
+  thirdparty/libwebp/src/webp/./types.h \
+  thirdparty/libwebp/src/webp/demux.h \
+  thirdparty/libwebp/src/webp/./decode.h \
+  thirdparty/libwebp/src/webp/./mux_types.h \
+  thirdparty/libwebp/src/webp/format_constants.h

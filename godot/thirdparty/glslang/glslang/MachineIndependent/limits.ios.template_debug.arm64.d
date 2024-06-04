@@ -1,0 +1,27 @@
+dependencies: thirdparty/glslang/glslang/MachineIndependent/limits.cpp \
+  thirdparty/glslang/glslang/MachineIndependent/ParseHelper.h \
+  thirdparty/glslang/glslang/MachineIndependent/parseVersions.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Public/ShaderLang.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Public/../Include/ResourceLimits.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Public/../MachineIndependent/Versions.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Include/InfoSink.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Public/../Include/../Include/Common.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Public/../Include/PoolAlloc.h \
+  thirdparty/glslang/glslang/MachineIndependent/Scan.h \
+  thirdparty/glslang/glslang/MachineIndependent/Versions.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Include/ShHandle.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Public/../Include/../Public/ShaderLang.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Public/../Include/../MachineIndependent/Versions.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Public/../Include/InfoSink.h \
+  thirdparty/glslang/glslang/MachineIndependent/SymbolTable.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Include/Common.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Include/intermediate.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Public/../Include/../Include/Types.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Public/../Include/../Include/BaseTypes.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Public/../Include/arrays.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Public/../Include/SpirvIntrinsics.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Public/../Include/Common.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Public/../Include/../Include/ConstantUnion.h \
+  thirdparty/glslang/glslang/MachineIndependent/localintermediate.h \
+  thirdparty/glslang/glslang/MachineIndependent/attribute.h \
+  thirdparty/glslang/glslang/MachineIndependent/../Include/ConstantUnion.h

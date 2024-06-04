@@ -1,0 +1,60 @@
+dependencies: thirdparty/harfbuzz/src/hb-icu.cc \
+  thirdparty/harfbuzz/src/hb.hh thirdparty/harfbuzz/src/hb-config.hh \
+  thirdparty/harfbuzz/src/hb-limits.hh thirdparty/harfbuzz/src/hb.h \
+  thirdparty/harfbuzz/src/hb-blob.h thirdparty/harfbuzz/src/hb-common.h \
+  thirdparty/harfbuzz/src/hb-buffer.h \
+  thirdparty/harfbuzz/src/hb-unicode.h thirdparty/harfbuzz/src/hb-font.h \
+  thirdparty/harfbuzz/src/hb-face.h thirdparty/harfbuzz/src/hb-map.h \
+  thirdparty/harfbuzz/src/hb-set.h thirdparty/harfbuzz/src/hb-draw.h \
+  thirdparty/harfbuzz/src/hb-paint.h \
+  thirdparty/harfbuzz/src/hb-deprecated.h \
+  thirdparty/harfbuzz/src/hb-shape.h \
+  thirdparty/harfbuzz/src/hb-shape-plan.h \
+  thirdparty/harfbuzz/src/hb-style.h \
+  thirdparty/harfbuzz/src/hb-version.h thirdparty/harfbuzz/src/hb-ot.h \
+  thirdparty/harfbuzz/src/hb-ot-color.h \
+  thirdparty/harfbuzz/src/hb-ot-name.h \
+  thirdparty/harfbuzz/src/hb-ot-deprecated.h \
+  thirdparty/harfbuzz/src/hb-ot-font.h \
+  thirdparty/harfbuzz/src/hb-ot-layout.h \
+  thirdparty/harfbuzz/src/hb-ot-math.h \
+  thirdparty/harfbuzz/src/hb-ot-meta.h \
+  thirdparty/harfbuzz/src/hb-ot-metrics.h \
+  thirdparty/harfbuzz/src/hb-ot-shape.h \
+  thirdparty/harfbuzz/src/hb-ot-var.h thirdparty/harfbuzz/src/hb-aat.h \
+  thirdparty/harfbuzz/src/hb-aat-layout.h \
+  thirdparty/harfbuzz/src/hb-cplusplus.hh \
+  thirdparty/harfbuzz/src/hb-meta.hh thirdparty/harfbuzz/src/hb-mutex.hh \
+  thirdparty/harfbuzz/src/hb-number.hh \
+  thirdparty/harfbuzz/src/hb-atomic.hh \
+  thirdparty/harfbuzz/src/hb-null.hh thirdparty/harfbuzz/src/hb-algs.hh \
+  thirdparty/harfbuzz/src/hb-iter.hh thirdparty/harfbuzz/src/hb-debug.hh \
+  thirdparty/harfbuzz/src/hb-array.hh \
+  thirdparty/harfbuzz/src/hb-vector.hh \
+  thirdparty/harfbuzz/src/hb-object.hh thirdparty/harfbuzz/src/hb-icu.h \
+  thirdparty/icu4c/common/unicode/uscript.h \
+  thirdparty/icu4c/common/unicode/utypes.h \
+  thirdparty/icu4c/common/unicode/umachine.h \
+  thirdparty/icu4c/common/unicode/ptypes.h \
+  thirdparty/icu4c/common/unicode/platform.h \
+  thirdparty/icu4c/common/unicode/uconfig.h \
+  thirdparty/icu4c/common/unicode/uvernum.h \
+  thirdparty/icu4c/common/unicode/urename.h \
+  thirdparty/icu4c/common/unicode/uversion.h \
+  thirdparty/icu4c/common/unicode/utf.h \
+  thirdparty/icu4c/common/unicode/utf8.h \
+  thirdparty/icu4c/common/unicode/utf16.h \
+  thirdparty/icu4c/common/unicode/utf_old.h \
+  thirdparty/harfbuzz/src/hb-machinery.hh \
+  thirdparty/harfbuzz/src/hb-blob.hh \
+  thirdparty/harfbuzz/src/hb-dispatch.hh \
+  thirdparty/harfbuzz/src/hb-sanitize.hh \
+  thirdparty/icu4c/common/unicode/uchar.h \
+  thirdparty/icu4c/common/unicode/stringoptions.h \
+  thirdparty/icu4c/common/unicode/ucpmap.h \
+  thirdparty/icu4c/common/unicode/unorm2.h \
+  thirdparty/icu4c/common/unicode/uset.h \
+  thirdparty/icu4c/common/unicode/localpointer.h \
+  thirdparty/icu4c/common/unicode/ustring.h \
+  thirdparty/icu4c/common/unicode/putil.h \
+  thirdparty/icu4c/common/unicode/uiter.h

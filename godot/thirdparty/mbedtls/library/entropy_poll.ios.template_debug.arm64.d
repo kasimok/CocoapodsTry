@@ -1,0 +1,13 @@
+dependencies: thirdparty/mbedtls/library/entropy_poll.c \
+  thirdparty/mbedtls/library/common.h \
+  thirdparty/mbedtls/include/godot_module_mbedtls_config.h \
+  platform/ios/platform_config.h \
+  thirdparty/mbedtls/include/mbedtls/config.h \
+  thirdparty/mbedtls/include/mbedtls/check_config.h \
+  thirdparty/mbedtls/include/mbedtls/entropy.h \
+  thirdparty/mbedtls/include/mbedtls/sha512.h \
+  thirdparty/mbedtls/include/mbedtls/entropy_poll.h \
+  thirdparty/mbedtls/include/mbedtls/error.h \
+  thirdparty/mbedtls/include/mbedtls/timing.h \
+  thirdparty/mbedtls/include/mbedtls/platform.h \
+  thirdparty/mbedtls/include/mbedtls/platform_time.h

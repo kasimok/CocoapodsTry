@@ -1,0 +1,30 @@
+dependencies: \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/PpScanner.cpp \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/PpContext.h \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/../ParseHelper.h \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/../parseVersions.h \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/../../Public/ShaderLang.h \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/../../Public/../Include/ResourceLimits.h \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/../../Public/../MachineIndependent/Versions.h \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/../../Include/InfoSink.h \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/../../Public/../Include/../Include/Common.h \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/../../Public/../Include/PoolAlloc.h \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/../Scan.h \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/../Versions.h \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/../../Include/ShHandle.h \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/../../Public/../Include/../Public/ShaderLang.h \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/../../Public/../Include/../MachineIndependent/Versions.h \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/../../Public/../Include/InfoSink.h \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/../SymbolTable.h \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/../../Include/Common.h \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/../../Include/intermediate.h \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/../../Public/../Include/../Include/Types.h \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/../../Public/../Include/../Include/BaseTypes.h \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/../../Public/../Include/arrays.h \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/../../Public/../Include/SpirvIntrinsics.h \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/../../Public/../Include/Common.h \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/../../Public/../Include/../Include/ConstantUnion.h \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/../localintermediate.h \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/../attribute.h \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/../../Include/ConstantUnion.h \
+  thirdparty/glslang/glslang/MachineIndependent/preprocessor/PpTokens.h
